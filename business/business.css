@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background-image: url(manhattan-407703_1920.jpg);
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+    background-attachment: fixed;
+    
+
+}
+#fix{
+    position: fixed;
+}
+.menu {
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    top: 3%;
+    right: 10%;
+    
+}
+.first h1{
+    font-weight: normal;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+}
+
+.logo{
+    
+    position: absolute;
+    top: 1%;
+    left: 2%;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    
+    
+    
+}
+.menu ul li a{
+    
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    
+}
+.menu ul li a:hover{
+    color: aqua;
+}
+.left{
+background-color: rgb(6,43,77,255);
+width: 40%;
+height: 100vh;
+opacity: 0.5;
+margin-top: 60px;
+
+}
+.text h1{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+
+}
+.text h3{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    color: white;
+}
+
+.column1 {
+    float: left;
+    width: 40%;
+    padding-left: 10%;
+    height: 100vh;
+    background-color: rgb(234,244,246,255);
+    text-align: center;
+    margin: 0;
+    
+
+}
+.column2 {
+    float: left;
+    width: 30%;
+   
+    margin: 30px 40px 40px 30px;
+   
+    text-align: justify;
+    color: black;
+   
+}
+.column2 p{
+    margin: 30px 40px 40px 10px;
+}
+
+.column3 {
+    float: right;
+    width: 30%;
+    padding: 5px;
+   
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+.row{
+    text-align: justify;
+   
+}
+.column1 h1 {
+    margin-top: 200px;
+    margin-right: 140px;
+}
+
+.column2 h2 {
+    margin-top: 70px;
+    margin-right: 120px;
+}
+.column2 p{
+    position: absolute;
+    float: right;
+}
+.vision{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 48, 91, 255);
+    text-align: justify;
+    color: white;
+    padding-bottom: 20px;
+   
+}
+.vision h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.vision p{
+    margin: 130px;
+    word-spacing: 0.3cm;
+    font-size: 0.5cm;
+}
+.meet{
+    background-image: url(c\ \(3\).jpg);
+    background-size: cover;
+    width:100%;
+    height: 80vh;
+    background-attachment: fixed;
+    opacity: 0.6;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 225px;
+    padding: 5px;
+    
+    margin-left: 150px;
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.atto{
+    background-color: rgb(203, 219, 244);
+    text-align: center;
+    padding-top: 20px;
+}
+.column p {
+    margin: 30px;
+}
+.column img{
+    margin: 30px;
+}
+.contact{
+   
+    width:100;
+    height: 100vh;
+    background-image: url(architecture-1868667_1920.jpg);
+    background-attachment: fixed;
+}
+.cleft{
+    text-align: center;
+    background-color: rgba(19, 71, 119, 0.4);
+    width: 40%;
+    height: 100vh;
+    float: left;
+    color: white;
+    
+}
+.cleft h1{
+    margin: 200px;
+}
+.cbg{
+    background-color: rgba(26, 81, 133, 0.4);
+}
+.cright{
+   
+    width: 40%;
+    height: 100vh;
+    margin-right: 50px;
+   
+    position: absolute;
+    top:  500%;
+    left: 50%;
+    color: white;
+}
+
+footer h3{
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.cright {
+    border-radius: 5px;
+   
+    padding: 20px;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
